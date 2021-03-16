@@ -1,0 +1,54 @@
+header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: white;
+}
+span {
+    color: grey;
+}
+
+.gif__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif__photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+p {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+button {
+    height: 100px;
+    width: 200px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: grey;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
