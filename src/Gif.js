@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import './Gif.css';
+import './Gif.scss';
 import Text from "./Text";
 
 function Gif() {

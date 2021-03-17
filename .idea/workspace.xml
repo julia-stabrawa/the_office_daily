@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2890c712-3e53-4ab5-b931-de44d277f2f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/4021717.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/6659028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/michael.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/scott.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gif.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gif.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gif.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gif.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gif.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gif.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/4021717.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/6659028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/michael.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -40,8 +44,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../prework/Best_shop" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615928487798</updated>
       <workItem from="1615928489992" duration="5040000" />
-      <workItem from="1615975170206" duration="6270000" />
+      <workItem from="1615975170206" duration="7505000" />
     </task>
     <servers />
   </component>

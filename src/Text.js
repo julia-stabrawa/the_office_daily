@@ -1,5 +1,5 @@
 import React from "react";
-import './Gif.css';
+import './Gif.scss';
 import scott from './img/scott.png';
 
 function Text() {
