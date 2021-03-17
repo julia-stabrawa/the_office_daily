@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import './Gif.scss';
 import Text from "./Text";
 
@@ -7,17 +7,15 @@ function Gif() {
 
 
     const getGif = async () => {
-        const url = `https://g.tenor.com/v1/search?q=the office&key=PMHBBYHY9KSL&limit=200`
+        const url = `https://g.tenor.com/v1/search?q=the office&key=PMHBBYHY9KSL&limit=150`
 
         const response = await fetch(url);
         const responseJson = await response.json();
 
-        setGif(responseJson.results);
+        if (responseJson.results) {
+            setGif(responseJson.results);
+        }
     }
-
-    useEffect(() => {
-        getGif();
-    }, [])
 
     const randomGif = gif[Math.floor(Math.random() * gif.length)];
 
@@ -28,7 +26,7 @@ function Gif() {
             </header>
             <div className="gif__container">
                 <div className="gif__photo">{gif.length > 0 ?
-                    <img src={randomGif.media[0].gif.url}/> :
+                    <img src={randomGif.media[0].gif.url} alt="gif"/> :
                     <Text/>
                 }</div>
                 <button onClick={getGif}>DAILY GIF</button>

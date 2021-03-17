@@ -1,10 +1,10 @@
 import './App.scss';
-import GifRoulette from "./Gif";
+import Gif from "./Gif";
 
 function App() {
   return (
     <div className="App">
-      <GifRoulette/>
+      <Gif/>
     </div>
   );
 }

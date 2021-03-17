@@ -11,7 +11,7 @@ function Text() {
             <p>Was it a gif from The Office?</p>
             <p>Exactly!</p>
             <p><strong>Click the button to get your office gif of the day</strong></p>
-            <img src={scott}></img>
+            <img src={scott} alt="prison mike"/>
         </div>
     );
 }
