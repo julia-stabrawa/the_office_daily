@@ -12,9 +12,7 @@ function Gif() {
         const response = await fetch(url);
         const responseJson = await response.json();
 
-        if (responseJson.results) {
-            setGif(responseJson.results);
-        }
+        setGif(responseJson.results);
     }
 
     useEffect(() => {
