@@ -11,12 +11,7 @@ function Text() {
             <p>Was it a gif from The Office?</p>
             <p>Exactly!</p>
             <p><strong>Click the button to get your office gif of the day</strong></p>
-            <img
-                style={{
-                    height: "150px"
-                }}
-                src={scott}>
-            </img>
+            <img src={scott}></img>
         </div>
     );
 }
