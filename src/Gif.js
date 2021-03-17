@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import './Gif.css';
+import Text from "./Text";
 
 function Gif() {
     const [gif, setGif] = useState([]);
@@ -16,15 +17,7 @@ function Gif() {
         }
     }
 
-    // useEffect(() => {
-    //     getGif();
-    // }, [searchValue])
-
     const randomGif = gif[Math.floor(Math.random() * gif.length)];
-
-    console.log(gif);
-    // console.log(randomGif.media[0].gif.url);
-
 
     return (
         <>
@@ -34,7 +27,7 @@ function Gif() {
             <div className="gif__container">
                 <div className="gif__photo">{gif.length > 0 ?
                     <img src={randomGif.media[0].gif.url}/> :
-                    <p>Click the button to get your office gif of the day</p>
+                    <Text/>
                 }</div>
                 <button onClick={getGif}>DAILY GIF</button>
             </div>
