@@ -9,7 +9,9 @@ function Gif() {
     const getGif = async () => {
         const url = `https://g.tenor.com/v1/search?q=the office&key=PMHBBYHY9KSL&limit=150`
 
-        const response = await fetch(url);
+        const response = await fetch(url, {
+            mode: 'no-cors'
+        })
         const responseJson = await response.json();
 
         if (responseJson.results) {
