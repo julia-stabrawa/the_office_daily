@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2890c712-3e53-4ab5-b931-de44d277f2f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gif.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gif.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gif.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gif.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../prework/Best_shop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Final Project/moodformovies" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615928487798</updated>
       <workItem from="1615928489992" duration="5040000" />
-      <workItem from="1615975170206" duration="8157000" />
+      <workItem from="1615975170206" duration="8765000" />
     </task>
     <servers />
   </component>

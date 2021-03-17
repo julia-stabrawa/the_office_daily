@@ -17,6 +17,10 @@ function Gif() {
         }
     }
 
+    useEffect(() => {
+        getGif();
+    }, [])
+
     const randomGif = gif[Math.floor(Math.random() * gif.length)];
 
     return (
